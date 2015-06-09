@@ -1,10 +1,9 @@
-
 {
   "name": "videopublisher",
   "description": "Video Publisher",
   "version": "0.0.1",
   "keywords": [
-    "videopublisher",
+    "videopublisher"
   ],
   "author": {
     "name": "AoVivoNaWeb.tv",
@@ -23,7 +22,7 @@
   },
   "devDependencies": {
     "express": "~4.12.4",
-    "body-parser": "~1.12.4",
+    "body-parser": "~1.12.4"
   },
   "engines": {
     "node": ">=0.10"
