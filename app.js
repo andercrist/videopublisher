@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.oauth = oauthserver({
-  model: {}, // See below for specification
+  model: require('./app/model/oauth'),
   grants: ['password'],
   debug: true
 });
